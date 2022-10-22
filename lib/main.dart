@@ -115,7 +115,7 @@ class Home extends StatelessWidget {
               height: 500,
               width: largura,
               color: Color(0xffCCD0FF),
-              child: Image.asset("../images/Produção de software (1).png"),
+              child: Image.asset("./images/img_post.png"),
             ),
             //=======================================
             //Posts
