@@ -1,7 +1,6 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/partes/widget.dart';
+import 'dart:html' as html;
 
 void main() {
   runApp(MaterialApp(
@@ -85,7 +84,10 @@ class Home extends StatelessWidget {
                         //======================================
                         //                  btn_Whatsapp
                         TextButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              html.window.open("https://wa.me/5591984837847",
+                                  'whatsapp_web');
+                            },
                             child: Text("Whasapp",
                                 style: TextStyle(
                                     fontSize: largura > 700
